@@ -14,6 +14,8 @@
 		24C06B172AC2AFA4008B87ED /* CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C06B162AC2AFA4008B87ED /* CardsTests.swift */; };
 		24C06B212AC2AFA4008B87ED /* CardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C06B202AC2AFA4008B87ED /* CardsUITests.swift */; };
 		24C06B232AC2AFA4008B87ED /* CardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C06B222AC2AFA4008B87ED /* CardsUITestsLaunchTests.swift */; };
+		24C06B302AC40CF3008B87ED /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C06B2F2AC40CF3008B87ED /* CardView.swift */; };
+		24C06B342AC40D8E008B87ED /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C06B332AC40D8E008B87ED /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		24C06B1C2AC2AFA4008B87ED /* CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C06B202AC2AFA4008B87ED /* CardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUITests.swift; sourceTree = "<group>"; };
 		24C06B222AC2AFA4008B87ED /* CardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24C06B2F2AC40CF3008B87ED /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		24C06B332AC40D8E008B87ED /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				24C06B042AC2AFA3008B87ED /* CardsApp.swift */,
 				24C06B062AC2AFA3008B87ED /* ContentView.swift */,
+				24C06B332AC40D8E008B87ED /* Card.swift */,
+				24C06B2F2AC40CF3008B87ED /* CardView.swift */,
 				24C06B082AC2AFA4008B87ED /* Assets.xcassets */,
 				24C06B0A2AC2AFA4008B87ED /* Cards.entitlements */,
 				24C06B0B2AC2AFA4008B87ED /* Preview Content */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C06B072AC2AFA3008B87ED /* ContentView.swift in Sources */,
+				24C06B302AC40CF3008B87ED /* CardView.swift in Sources */,
 				24C06B052AC2AFA3008B87ED /* CardsApp.swift in Sources */,
+				24C06B342AC40D8E008B87ED /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
